@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+    font-family: "font-me";
+}
+
+@font-face{
+    font-family: "font-me" ;
+    src: url(../resources/coolvetica\ rg.otf);
+}
+
+@font-face{
+    font-family: "font-form";
+    src: url(../resources/coolvetica\ rg\ it.otf);
+}
+
+body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 7vh;
+}
+
+#head{
+    background-color: #E1EBEE;
+    font-size: x-large;
+    position:fixed;
+    width: 100%;
+    z-index: 10;
+    -webkit-box-shadow: 0px 3px 11px 0px rgba(0,0,0,0.65);
+-moz-box-shadow: 0px 3px 11px 0px rgba(0,0,0,0.65);
+box-shadow: 0px 3px 11px 0px rgba(0,0,0,0.65);
+}
+
+.text-h{
+    height: 7vh;
+    display: flex;
+    align-items: center;
+}
+
+.title-head{
+    margin-left: 100px;
+}
+
+.title-head h1{
+    margin: auto;
+}
+
+
+.text-h ul{
+    margin: auto;
+    width: 100%;
+    padding: 0;
+    display: inline-flex;
+    justify-content: center;
+}
+
+li{
+    margin-right: 120px;
+    list-style: none;
+}
+
+main{
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+#inicio{
+    margin-top: 2%;
+    width: 70%;
+    margin-bottom: 10%;
+}
+
+.title-i h1{
+    font-size: xx-large;
+}
+
+.cuerpo-i{
+    font-size: larger;
+}
+
+#portfolio{
+    height: 100vh;
+    margin-bottom: 8%;
+}
+
+.title-prt h1{
+    font-size: xx-large;
+}
+
+.cuerpo-prt{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 400px 400px;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
+.cuerpo-prt img{
+    border-radius: 1%;
+    width: 100%;
+    height: 100%;
+}
+
+.cuerpo-prt img:hover{
+    filter: brightness(0.5);
+}
+
+#sobre-mi{
+    display: flex;
+    background-color: #E1EBEE;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#sobre-mi img{
+    width: 100%;
+    height: 80vh;
+    border-radius: 1%;
+}
+
+.cuerpo-sm{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.title{
+    width: 100%;
+}
+
+
+#contacto{
+    display: flex;
+    padding-top: 10%;
+
+}
+
+.formulario{
+    align-items: center;
+    display: flex;
+    width: 50%;
+}
+
+form{
+    background-color: #E1EBEE;
+    display: grid;
+    height: 75vh;
+    width: 25vw;
+    border: solid 0px;
+    justify-content: center;
+    border-radius: 90px 10px 90px 10px;
+    -webkit-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.7);
+    box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.7);
+}
+
+form h1{
+    display: flex;
+    justify-content: center;
+}
+
+input ,label, textarea{
+    margin:20px;
+    font-size: larger;
+}
+
+input,textarea{
+    border: solid 0px black;
+    border-radius: 10px;
+    margin-top: 0;
+    outline: none;
+    font-family: "font-form";
+}
+
+
+label{
+    margin-bottom: 0;
+}
+
+input{
+    height: 27px;
+}
+
+textarea{
+    resize: none;
+}
+
+#btn{
+    width: 30%;
+    background-color: black;
+    color: white;
+}
+
+#btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.img-traje{
+    width: 50%;
+}
+
+.img-traje img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
