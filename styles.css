@@ -5,12 +5,12 @@
 
 @font-face{
     font-family: "font-me" ;
-    src: url(../resources/coolvetica\ rg.otf);
+    src: url(./resources/coolvetica\ rg.otf);
 }
 
 @font-face{
     font-family: "font-form";
-    src: url(../resources/coolvetica\ rg\ it.otf);
+    src: url(./resources/coolvetica\ rg\ it.otf);
 }
 
 body{
